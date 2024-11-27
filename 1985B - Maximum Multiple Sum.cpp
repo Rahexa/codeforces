@@ -1,21 +1,25 @@
 #include <iostream>
 using namespace std;
- typedef long long ll;  // Define 'll' as a shorthand for 'long long'
  int main() {
-    // Fast input/output optimizations (optional for larger inputs)
-    ios_base::sync_with_stdio(false);  // Disable synchronization with C stdio for faster I/O
-    cin.tie(NULL);  // Untie cin from cout
-     ll t;  // Number of test cases
-    cin >> t;  // Read the number of test cases
-        while (t--) {
-        ll n;  // Variable to hold the value of 'n' for each test case
-        cin >> n;  // Read the value of 'n' for the current test case
-                // Logic to print output based on the value of 'n'
-        if (n == 3) {
-            cout << n << endl;  // If 'n' is 3, print the value of 'n' (which is 3)
-        } else {
-            cout << "2\n";  // For all other values of 'n', print 2
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+                int max_sum = 0;
+        int optimal_x = 2;
+                // Try every x from 2 to n
+        for (int x = 2; x <= n; x++) {
+            int k = n / x;  // Largest integer such that kx <= n
+            int sum_of_multiples = x * (k * (k + 1)) / 2;  // Sum of multiples of x
+                        // Update the maximum sum and the corresponding x
+            if (sum_of_multiples > max_sum) {
+                max_sum = sum_of_multiples;
+                optimal_x = x;
+            }
         }
+                // Output the optimal x for this test case
+        cout << optimal_x << endl;
     }
-     return 0;  // End of the program
+        return 0;
 }
