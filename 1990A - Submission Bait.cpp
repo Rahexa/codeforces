@@ -20,8 +20,8 @@
         std::sort(v.rbegin(), v.rend());
          // Check adjacent elements after sorting
         bool result = false;
-        for (int i = 0; i < n; i += 2) {
-            if (v[i] != v[i +1 ]) {
+        for (int i = 1; i < n; i += 2) {
+            if (v[i] != v[i - 1]) {
                 result = true;
                 break;
             }
