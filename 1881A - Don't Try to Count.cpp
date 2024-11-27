@@ -10,20 +10,17 @@ using namespace std;
         cin >> x >> s; // Input strings
          string current = x; // Start with the initial string
         int operations = 0; // Count of operations
-        bool found = false;
-         // Use while loop to simulate string doubling until s is found
-        while (current.size() <= 50) { // We limit the size of current to avoid excessive memory
-            if (current.find(s) != string::npos) { // If s is found as a substring
-                found = true;
-                break;
-            }
-            current += current; // Double the string
+         // Repeat until s is found in x
+        while (current.find(s) == string::npos) {
+            current += current; // Append x to itself
             operations++;
+             // If the length exceeds a reasonable bound, break (safe-guard)
+            if (current.size() > 50) break;
         }
-         if (found) {
-            cout << operations << endl; // Output the number of operations
+         if (current.find(s) != string::npos) {
+            cout << operations << endl;
         } else {
-            cout << -1 << endl; // If s is not found after a reasonable amount of operations
+            cout << -1 << endl; // If s never appears
         }
     }
      return 0;
