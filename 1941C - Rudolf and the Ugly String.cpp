@@ -1,21 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define fast {ios_base::sync_with_stdio(false); cin.tie(0);}
-typedef long long ll;
+#define ll long long
  int main()
 {
-    fast
-    ll i, j, k, m, n, c, t, x, y;
+    int t;
     cin >> t;
-    while (t--) {
-        string s;
-        cin >> n >> s;
-        ll ans = 0;
-        for (i = 0; i <= n - 3; i++) {
-            if (s.substr(i, 3) == "map" || s.substr(i, 3) == "pie") ans++;
-            if (i <= n - 5 && s.substr(i, 5) == "mapie") ans--;
+    while(t--){
+        int c=0,n;
+        cin>>n;
+       string s;
+       cin>>s;
+       for(int i=0;i<s.size();i++){
+        if(s[i]=='p' && s[i+1]=='i' && s[i+2]=='e'){
+            i+=2;
+            c++;
         }
-        cout << ans << "\n";
-    }
+        else if(s[i]=='m' && s[i+1]=='a' && s[i+2]=='p'){
+            i+=2;
+            c++;
+        }
+       }
+        cout<<c<<endl;
+           }
     return 0;
 }
