@@ -1,26 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
- int main()
-{
+ int main() {
     int t;
     cin >> t;
-    while(t--){
-        int c=0,n;
-        cin>>n;
-       string s;
-       cin>>s;
-       for(int i=0;i<s.size();i++){
-        if(s[i]=='p' && s[i+1]=='i' && s[i+2]=='e'){
-            i+=2;
-            c++;
+    while (t--) {
+        int n;
+        cin >> n;
+        string s;
+        cin >> s;
+        int count = 0;
+        for (int i = 0; i <= n - 3; i++) {
+            if (s.substr(i, 3) == "map" || s.substr(i, 3) == "pie") {
+                count++;
+            }
+            if (i <= n - 5 && s.substr(i, 5) == "mapie") {
+                count--;
+            }
         }
-        else if(s[i]=='m' && s[i+1]=='a' && s[i+2]=='p'){
-            i+=2;
-            c++;
-        }
-       }
-        cout<<c<<endl;
-           }
+        cout << count << endl;
+    }
     return 0;
 }
