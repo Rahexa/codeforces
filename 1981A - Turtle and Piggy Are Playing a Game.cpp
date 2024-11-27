@@ -1,28 +1,36 @@
-#include <iostream>
+#include <bits/stdc++.h> 
 using namespace std;
- #define MAX_POWER 33
- long long powersOfTwo[MAX_POWER];  // To store powers of 2 from 2^0 to 2^32
+ #define mod (100001)
+#define ll long long
+#define x first
+#define y second
+typedef pair<int, int> P;
+ int d[33] {};
  void solve() {
-    long long l, r;
-    cin >> l >> r;
-     // Start checking from the largest power of 2 (2^32)
-    for (int i = MAX_POWER - 1; i >= 0; i--) {
-        if (l <= powersOfTwo[i] && powersOfTwo[i] <= r) {
-            cout << i << endl;  // Output the index (which is the exponent of 2)
-            return;  // We found the answer, no need to check further
-        }
-    }
+ ll l, r;
+ cin >> l >> r;
+  //ll x = r;
+ for (int i = 32; i > 0; i--) {
+  if (l <= d[i] && d[i] <= r) {
+   //x = d[i];
+   cout << i << endl;
+   break;
+  }
+ }
+  //cout << "x = " << x << endl;
 }
- int main() {
-    // Precompute powers of 2 up to 2^32
-    powersOfTwo[0] = 1;
-    for (int i = 1; i < MAX_POWER; i++) {
-        powersOfTwo[i] = powersOfTwo[i-1] * 2;
+ int main() {    
+    ios_base::sync_with_stdio(false); 
+    cin.tie(NULL); 
+    cout.tie(NULL); 
+     d[0] = 1;
+    for (int i = 1; i <= 32; i++) {
+     d[i] = d[i-1] * 2;
     }
      int t;
-    cin >> t;  // Read the number of test cases
-    while (t--) {
-        solve();  // Solve each test case
-    }
-     return 0;
+ cin >> t;
+ while (t--) {
+  solve();
+ }
+  return 0;
 }
