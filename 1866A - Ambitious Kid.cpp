@@ -1,26 +1,19 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
-#include <cmath>
  using namespace std;
  int main() {
-    int N;
-    cin >> N;
-    vector<int> A(N);
-    bool has_zero = false;
-    int min_operations = INT_MAX;
-     for (int i = 0; i < N; ++i) {
-        cin >> A[i];
-        if (A[i] == 0) {
-            has_zero = true;
-        } else {
-            min_operations = min(min_operations, abs(A[i]));
+    int n;
+     cin >> n;
+     vector<int> arr(n);
+      for (int i = 0; i < n; ++i) {
+        cin >> arr[i];
+    }
+     int min_value = abs(arr[0]);
+     for (int i = 1; i < n; ++i) {
+        if (abs(arr[i]) < abs (min_value)) {
+            min_value = abs(arr[i]);
         }
     }
-     if (has_zero) {
-        cout << 0 << endl;
-    } else {
-        cout << min_operations << endl;
-    }
+     cout <<min_value<<endl;
      return 0;
 }
