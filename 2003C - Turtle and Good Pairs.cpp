@@ -25,7 +25,7 @@
              for(int i = 0;i<cnt ;i++){
                 if(indx>= n ){
                     indx =1;}
-                 result[indx] = ch;
+                result[indx] = ch;
                 indx +=2;
             }
          }
