@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Shifts and Sorting
+Problem Link: https://codeforces.com/contest/1969/problem/B
+
+Solution Link: https://codeforces.com/contest/1969/submission/298453099
