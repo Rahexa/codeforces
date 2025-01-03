@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Splitting Items
+Problem Link: https://codeforces.com/contest/2004/problem/C
+
+Solution Link: https://codeforces.com/contest/2004/submission/298790817
