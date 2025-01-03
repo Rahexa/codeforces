@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: The Strict Teacher (Easy Version)
+Problem Link: https://codeforces.com/contest/2005/problem/B1
+
+Solution Link: https://codeforces.com/contest/2005/submission/298711470
