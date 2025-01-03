@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Shohag Loves Mod
+Problem Link: https://codeforces.com/contest/2039/problem/A
+
+Solution Link: https://codeforces.com/contest/2039/submission/298699703
