@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Matrix Stabilization
+Problem Link: https://codeforces.com/contest/1986/problem/B
+
+Solution Link: https://codeforces.com/contest/1986/submission/299300371
