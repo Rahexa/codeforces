@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Penchick and Satay Sticks
+Problem Link: https://codeforces.com/contest/2031/problem/B
+
+Solution Link: https://codeforces.com/contest/2031/submission/299202150
