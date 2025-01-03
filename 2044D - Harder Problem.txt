@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Harder Problem
+Problem Link: https://codeforces.com/contest/2044/problem/D
+
+Solution Link: https://codeforces.com/contest/2044/submission/298578637
