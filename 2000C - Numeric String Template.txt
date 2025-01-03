@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Numeric String Template
+Problem Link: https://codeforces.com/contest/2000/problem/C
+
+Solution Link: https://codeforces.com/contest/2000/submission/299166822
