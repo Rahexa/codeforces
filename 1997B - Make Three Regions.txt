@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Make Three Regions
+Problem Link: https://codeforces.com/contest/1997/problem/B
+
+Solution Link: https://codeforces.com/contest/1997/submission/299293094
