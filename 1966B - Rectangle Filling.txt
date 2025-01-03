@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Rectangle Filling
+Problem Link: https://codeforces.com/contest/1966/problem/B
+
+Solution Link: https://codeforces.com/contest/1966/submission/298866074
