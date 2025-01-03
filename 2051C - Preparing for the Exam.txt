@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Preparing for the Exam
+Problem Link: https://codeforces.com/contest/2051/problem/C
+
+Solution Link: https://codeforces.com/contest/2051/submission/298084318
