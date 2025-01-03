@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Make Equal Again
+Problem Link: https://codeforces.com/contest/1931/problem/C
+
+Solution Link: https://codeforces.com/contest/1931/submission/298453277
