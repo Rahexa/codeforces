@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Balanced Shuffle (Easy)
+Problem Link: https://codeforces.com/contest/1970/problem/A1
+
+Solution Link: https://codeforces.com/contest/1970/submission/298951794
