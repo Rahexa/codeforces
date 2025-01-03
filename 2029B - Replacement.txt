@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Replacement
+Problem Link: https://codeforces.com/contest/2029/problem/B
+
+Solution Link: https://codeforces.com/contest/2029/submission/298772914
