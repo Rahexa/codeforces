@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: A TRUE Battle
+Problem Link: https://codeforces.com/contest/2030/problem/C
+
+Solution Link: https://codeforces.com/contest/2030/submission/298704137
