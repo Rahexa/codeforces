@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Make Majority
+Problem Link: https://codeforces.com/contest/1988/problem/B
+
+Solution Link: https://codeforces.com/contest/1988/submission/298726831
