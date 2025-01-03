@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Substring and Subsequence
+Problem Link: https://codeforces.com/contest/1989/problem/B
+
+Solution Link: https://codeforces.com/contest/1989/submission/298904114
