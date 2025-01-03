@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: 378QAQ and Mocha's Array
+Problem Link: https://codeforces.com/contest/1975/problem/B
+
+Solution Link: https://codeforces.com/contest/1975/submission/299324710
