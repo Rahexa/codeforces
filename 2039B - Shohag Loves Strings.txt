@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Shohag Loves Strings
+Problem Link: https://codeforces.com/contest/2039/problem/B
+
+Solution Link: https://codeforces.com/contest/2039/submission/298690730
