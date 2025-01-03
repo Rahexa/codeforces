@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Right Left Wrong
+Problem Link: https://codeforces.com/contest/2000/problem/D
+
+Solution Link: https://codeforces.com/contest/2000/submission/298593364
