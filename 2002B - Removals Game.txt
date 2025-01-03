@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Removals Game
+Problem Link: https://codeforces.com/contest/2002/problem/B
+
+Solution Link: https://codeforces.com/contest/2002/submission/299206306
