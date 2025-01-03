@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Very Different Array
+Problem Link: https://codeforces.com/contest/1921/problem/D
+
+Solution Link: https://codeforces.com/contest/1921/submission/299265814
