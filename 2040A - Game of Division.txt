@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Game of Division
+Problem Link: https://codeforces.com/contest/2040/problem/A
+
+Solution Link: https://codeforces.com/contest/2040/submission/299099471
