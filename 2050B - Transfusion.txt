@@ -1,0 +1,7 @@
+
+# This file contains the solution for the Codeforces problem.
+
+Problem Name: Transfusion
+Problem Link: https://codeforces.com/contest/2050/problem/B
+
+Solution Link: https://codeforces.com/contest/2050/submission/299186360
